@@ -1,0 +1,22 @@
+
+
+tables required
+
+--> create database myDairy;
+
+---> create table registrations values (userName varchar(255), password varchar(255), profile_complete varchar(255) default 'incomplete');
+
+or
+
+
+--> create table registrations values (userName varchar(255), password varchar(255));
+
+	or
+	
+	alter table registrations add column profile_complete varchar(255) default 'incomplete';
+
+
+(user_name,name,gender,file_name,enc_file_name) values(\""+username+"\",\""+name2+"\",\""+selectedBook2+"\",\""+name3+"\",\""+name4+"\");";
+			
+
+--> create table user_detail_store(user_name varchar(255), name varchar(255), gender varchar(255), file_name varchar(255),enc_file_name varchar(255));
